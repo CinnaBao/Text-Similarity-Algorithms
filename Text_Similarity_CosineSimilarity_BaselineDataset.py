@@ -1,18 +1,11 @@
 
 # coding: utf-8
 
-# In[ ]:
-
 
 import pandas as pd
 from sklearn.model_selection import train_test_split
 import Text_Similarity_CosineSimilarity_Factory as Factory
-
 f = Factory.Data_preprocessing()
-
-
-# In[ ]:
-
 
 df = pd.read_csv(r'C:\Users\baowanyun\SMS_Spam_Collection_Dataset.csv',usecols=[0,1], encoding='latin-1') ; #print(df[0:5])
 df = df.rename(columns = {"v1":"Label", "v2": "EmailContent"}) #print(df.groupby('Label').count())
