@@ -1,8 +1,5 @@
-
 # coding: utf-8
-
-# In[63]:
-
+# Author: Bao Wan-Yun
 
 import pandas as pd
 import numpy as np
@@ -16,7 +13,6 @@ f = Factory.Data_preprocessing()
 ModelBase = pd.read_csv(r'C:\\Users\\baowanyun\\Text-Similarity-Algorithms_ModelBase.csv', encoding='latin-1') ; #print(df[0:5])
 ModelBase = ModelBase[ModelBase['Spam'] == 1].reset_index(drop = True)
 #print(ModelBase[0:2]) ; print(ModelBase.shape)  ## (603, 6)
-
 
 for num, content in enumerate(TestingDataset.EmailContent, start=1):
     print(num)
