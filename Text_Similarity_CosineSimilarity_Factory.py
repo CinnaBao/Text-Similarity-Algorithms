@@ -1,17 +1,12 @@
-
 # coding: utf-8
-
-# In[2]:
-
+# Author: Bao Wan-Yun
 
 import unicodedata
 import re
-
 import urllib.request
 import urllib.error
 opener = urllib.request.build_opener()
 opener.addheaders = [('User-agent', 'Mozilla/49.0.2')]
-
 from nltk.tokenize import RegexpTokenizer
 tokenizer = RegexpTokenizer(r'[\d.]+\b\.*|[\w\']+')
 tokenizer2 = RegexpTokenizer(r'\w+')
