@@ -5,11 +5,11 @@ Text Similarity Algorithms
 - https://archive.ics.uci.edu/ml/datasets/sms+spam+collection
 
 
-#### Edit Distance (Levenshtein Distance)
+* ### Edit Distance (Levenshtein Distance)
 
-#### Jaccard similarity (Jaccard similarity index (Jaccard similarity coefficient))
+* ### Jaccard similarity (Jaccard similarity index (Jaccard similarity coefficient))
 
-#### Cosine Similarity
+* ### Cosine Similarity
 
 
 
